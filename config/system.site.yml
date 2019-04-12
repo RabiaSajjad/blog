@@ -1,0 +1,13 @@
+name: 'Treasury Board of Canada Secretariat Blogs'
+mail: rabia.sajjad@tbs-sct.gc.ca
+slogan: 'Communicate through blogs'
+page:
+  403: ''
+  404: ''
+  front: /node/1196
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: uNOHaKWnoIbi-Q7d7NTqX2PeF_cwCaM9tTmwBoM2COA

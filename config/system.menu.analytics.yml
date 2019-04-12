@@ -1,0 +1,10 @@
+uuid: e89c6836-8c27-4c4d-9881-c2a2fbd2e405
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: SkjJ9blwmxZ_UrBJFxn0SshoYfq36euiO1Ag3uxzsFk
+id: analytics
+label: 'Analytics Menu'
+description: 'Analytics Menu.'
+locked: false

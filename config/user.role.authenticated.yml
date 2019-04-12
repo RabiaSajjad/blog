@@ -1,0 +1,42 @@
+uuid: 111c8a7e-0a9d-4964-8624-793d98e366dc
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access comments'
+  - 'access content'
+  - 'access external comments'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'access toolbar'
+  - 'access tour'
+  - 'access user profiles'
+  - 'access vote up/down statistics'
+  - 'clear own vote on external_entity:ckan:field_vote'
+  - 'clear own vote on node:app:field_vote'
+  - 'edit own external comments'
+  - 'edit own vote on external_entity:ckan:field_vote'
+  - 'edit own vote on external_entity:ckan_obd:field_vote'
+  - 'edit own vote on node:app:field_vote'
+  - 'post comments'
+  - 'post external comments'
+  - 'reset vote up/down votes'
+  - 'search content'
+  - 'skip external comment approval'
+  - 'use vote up/down'
+  - 'view ckan external entity'
+  - 'view ckan_obd external entity'
+  - 'view external entity list page'
+  - 'view media'
+  - 'view solr_inventory external entity'
+  - 'view the administration theme'
+  - 'vote on external_entity:ckan:field_vote'
+  - 'vote on external_entity:ckan_obd:field_vote'
+  - 'vote on node:app:field_vote'

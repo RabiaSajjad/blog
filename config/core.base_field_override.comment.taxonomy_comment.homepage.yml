@@ -1,0 +1,18 @@
+uuid: fd82b36b-d3c5-4380-aa8a-52b909b39aee
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.taxonomy_comment
+id: comment.taxonomy_comment.homepage
+field_name: homepage
+entity_type: comment
+bundle: taxonomy_comment
+label: Homepage
+description: 'The comment author''s home page address.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: uri

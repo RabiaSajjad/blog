@@ -1,0 +1,26 @@
+uuid: 4b95fe4d-6fc6-47fe-b542-9af1284e1298
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform_node
+  module:
+    - lightning_workflow
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+  lightning_workflow:
+    workflow: editorial
+_core:
+  default_config_hash: eVDzYzNgKGS2NnNpcSwzNYxTFNIIL80ddy2wdBDDckA
+name: Webform
+type: webform
+description: 'A basic page with a webform attached.'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

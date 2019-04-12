@@ -1,0 +1,20 @@
+uuid: 93699c01-c52c-4ccc-b168-f8c5f0457118
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.taxonomy_comment
+id: comment.taxonomy_comment.name
+field_name: name
+entity_type: comment
+bundle: taxonomy_comment
+label: Name
+description: 'The comment author''s name.'
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

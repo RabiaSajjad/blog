@@ -1,0 +1,20 @@
+uuid: 7877ebaa-5007-4194-b819-03e2e30fd47c
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.department
+  module:
+    - path
+id: group.department.path
+field_name: path
+entity_type: group
+bundle: department
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

@@ -1,0 +1,45 @@
+breadcrumb_title: 0
+wxt_gcweb_cdn: 1
+wxt_gcweb_cdn_goc_init: 0
+wxt_gcweb_search: 1
+features:
+  comment_user_picture: false
+  comment_user_verification: false
+  favicon: true
+  node_user_picture: false
+_core:
+  default_config_hash: QhegPjEq8jc8dss5NlpbSIE24-zsZTwLMMnLkSFMdfY
+schemas:
+  bootstrap: 8000
+  wxt_bootstrap: 8000
+  od_bootstrap: 8000
+wxt_skip_link_primary_text: 'Skip to main content'
+wxt_skip_link_secondary_text: 'Skip to "About this site"'
+region_wells:
+  branding: ''
+  breadcrumb: ''
+  language_toggle: ''
+  banner: ''
+  search: ''
+  navigation: ''
+  navigation_collapsible: ''
+  header: ''
+  highlighted: ''
+  help: ''
+  content: ''
+  content_footer: ''
+  sidebar_first: ''
+  sidebar_second: ''
+  footer: ''
+table_responsive: '-1'
+cdn_provider_import_data: ''
+table: ''
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: profiles/od/favicon.ico
+  url: 'http://tbsblog.ca:8080/profiles/od/favicon.ico'
+  use_default: false
+logo:
+  path: profiles/od/od.svg
+  url: ''
+  use_default: false

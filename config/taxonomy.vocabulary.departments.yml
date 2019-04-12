@@ -1,0 +1,11 @@
+uuid: 85b9b1f7-1394-4c6a-a109-308760b10647
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Gv-3Da1YjdiOwMD80X-q-TRqmzplAnazNctvLg6--rU
+name: Departments
+vid: departments
+description: 'Government of Canada departments listings.'
+hierarchy: 0
+weight: 0

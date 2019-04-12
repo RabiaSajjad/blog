@@ -1,0 +1,102 @@
+uuid: b483009f-501a-46e0-8049-86f8e4fc6e99
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.node_view
+  module:
+    - ctools_block
+    - panels
+    - system
+id: node_view-panels_variant-3
+label: 'Progress tracker for the Third Biennial Plan to the Open Government Partnership'
+variant: panels_variant
+variant_settings:
+  blocks:
+    e5132a56-4a94-4b89-a50f-3ab6130710f9:
+      id: page_title_block
+      label: 'Page title'
+      provider: core
+      label_display: '0'
+      region: main
+      weight: -1
+      uuid: e5132a56-4a94-4b89-a50f-3ab6130710f9
+      context_mapping: {  }
+    4665aeb4-8bcb-4957-8417-973abb7f6380:
+      id: local_tasks_block
+      label: Tabs
+      provider: core
+      label_display: '0'
+      primary: true
+      secondary: true
+      region: main
+      weight: 0
+      uuid: 4665aeb4-8bcb-4957-8417-973abb7f6380
+      context_mapping: {  }
+    8f296b14-689a-4ab1-b24e-73dad58ae4b7:
+      id: 'entity_field:node:body'
+      label: Body
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: hidden
+        type: text_default
+        settings: {  }
+        third_party_settings: {  }
+        weight: 0
+      region: main
+      weight: 1
+      uuid: 8f296b14-689a-4ab1-b24e-73dad58ae4b7
+      context_mapping:
+        entity: node
+    0c353d6a-3a77-4628-bf77-b38841e54879:
+      id: 'entity_field:node:comment'
+      label: Comments
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: above
+        type: comment_default
+        settings:
+          view_mode: default
+          pager_id: 0
+        third_party_settings: {  }
+        weight: 0
+      region: main
+      weight: 2
+      uuid: 0c353d6a-3a77-4628-bf77-b38841e54879
+      context_mapping:
+        entity: node
+  id: panels_variant
+  uuid: 32171084-8d25-4967-8c9e-46380a5f86b9
+  label: null
+  weight: 0
+  layout: bs_1col
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 1
+      attributes: ''
+    regions:
+      main:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+  page_title: '[node:title]'
+  storage_type: page_manager
+  storage_id: node_view-panels_variant-3
+  builder: ipe
+page: node_view
+weight: 0
+selection_criteria:
+  -
+    id: request_path
+    pages: "/commitment/tracker/third-biennial/*\n/engagements/tracker/third-biennial/*"
+    negate: false
+    context_mapping: {  }
+selection_logic: and
+static_context: {  }

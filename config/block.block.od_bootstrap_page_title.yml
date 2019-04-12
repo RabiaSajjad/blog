@@ -1,0 +1,29 @@
+uuid: b2a1668b-17ba-4a06-ad67-80c25a0f933e
+langcode: en
+status: true
+dependencies:
+  module:
+    - wxt_library
+  theme:
+    - od_bootstrap
+_core:
+  default_config_hash: gA-dwLWJ8F--0aW0tlM6i6z4gGYFwt928VS1pfJ1oHQ
+id: od_bootstrap_page_title
+theme: od_bootstrap
+region: header
+weight: -12
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  panels_title:
+    id: panels_title
+    enabled: 1
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+      taxonomy_term: '@taxonomy_term.taxonomy_term_route_context:taxonomy_term'

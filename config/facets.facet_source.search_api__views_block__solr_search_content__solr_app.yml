@@ -1,0 +1,11 @@
+uuid: 07ad7efd-318e-4e51-9bb2-794a0b55ce90
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ySiIiMndfF6rzWi8EdkjvfmQFQYfxOusnQlUgEDVwzU
+id: search_api__views_block__solr_search_content__solr_app
+name: 'search_api:views_block__solr_search_content__solr_app'
+filter_key: app
+url_processor: query_string
+breadcrumb: {  }

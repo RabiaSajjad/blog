@@ -1,0 +1,13 @@
+uuid: 0547bed3-ef1d-4322-81cb-2852b8e5686e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: gtx6zZ9xot76HVh1UIbeDw_ocWrkb3l2QrUrFn_dEZ8
+id: search_api__views_block__pd_core_hospitalitya__block_1
+name: 'search_api:views_block__pd_core_hospitalitya__block_1'
+filter_key: hospitalitya
+url_processor: query_string
+breadcrumb:
+  active: false
+  group: false

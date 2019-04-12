@@ -1,0 +1,13 @@
+uuid: 9490b2f9-2133-435f-960d-2b3c44a93fd3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hbxvHJKzobV8hmDIXb0vIm7gzyLMf95mJCUiwy0mBCM
+id: search_api__views_block__pd_core_hospitalityq__block_1
+name: 'search_api:views_block__pd_core_hospitalityq__block_1'
+filter_key: hospitalityq
+url_processor: query_string
+breadcrumb:
+  active: false
+  group: false

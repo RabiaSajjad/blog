@@ -1,0 +1,13 @@
+uuid: 61bce879-f5af-4e4e-a1f2-50129cb7db88
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: fm9yAhOsGSW_Q3rMTGnlcwnR_AnHlNLeQ8lulGYDetU
+id: search_api__views_block__solr_search_content__solr_commitment
+name: 'search_api:views_block__solr_search_content__solr_commitment'
+filter_key: commitment
+url_processor: query_string
+breadcrumb:
+  active: false
+  group: false

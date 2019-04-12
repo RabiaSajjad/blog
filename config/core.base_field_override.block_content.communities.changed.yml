@@ -1,0 +1,18 @@
+uuid: 6924ced6-1bcb-4a26-8f94-c11b32c20ec2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.communities
+id: block_content.communities.changed
+field_name: changed
+entity_type: block_content
+bundle: communities
+label: Changed
+description: 'The time that the custom block was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

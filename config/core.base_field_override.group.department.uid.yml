@@ -1,0 +1,20 @@
+uuid: af0d7f23-92cd-4c0d-84ad-15bf0806ed30
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.department
+id: group.department.uid
+field_name: uid
+entity_type: group
+bundle: department
+label: 'Group creator'
+description: 'The username of the group creator.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: 'Drupal\group\Entity\Group::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

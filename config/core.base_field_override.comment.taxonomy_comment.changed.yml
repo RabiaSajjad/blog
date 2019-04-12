@@ -1,0 +1,18 @@
+uuid: d09fb686-3fe3-4c8d-ac85-3b7d5aaa9adc
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.taxonomy_comment
+id: comment.taxonomy_comment.changed
+field_name: changed
+entity_type: comment
+bundle: taxonomy_comment
+label: Changed
+description: 'The time that the comment was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

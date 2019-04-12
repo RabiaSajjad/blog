@@ -1,0 +1,33 @@
+uuid: 7719be32-77ca-4c0c-a48d-9ef7ca9cd82d
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.contact
+  module:
+    - block_class
+    - wxt_ext_webform
+    - wxt_library
+  theme:
+    - od_bootstrap
+third_party_settings:
+  block_class:
+    classes: 'col-sm-6 col-md-5 col-lg-4'
+id: reportproblemblock
+theme: od_bootstrap
+region: content_footer
+weight: -13
+provider: null
+plugin: report_problem_block
+settings:
+  id: report_problem_block
+  label: 'Report Problem block'
+  provider: wxt_ext_webform
+  label_display: '0'
+  webform_id: contact
+visibility:
+  panels_title:
+    id: panels_title
+    enabled: 0
+    negate: false
+    context_mapping: {  }

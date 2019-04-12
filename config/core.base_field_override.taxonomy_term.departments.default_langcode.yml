@@ -1,0 +1,22 @@
+uuid: d9210abf-ef94-4ba0-a8fb-2211973df3a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.departments
+id: taxonomy_term.departments.default_langcode
+field_name: default_langcode
+entity_type: taxonomy_term
+bundle: departments
+label: 'Default translation'
+description: 'A flag indicating whether this is the default translation.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

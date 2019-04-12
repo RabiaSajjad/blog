@@ -1,0 +1,14 @@
+uuid: c930f199-376a-4529-a8a2-90d055b7fd8c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 0csnQFkB3OHdiu16h6xLozI_fwwEtOosiFZAwpae0HE
+id: analytics
+label: Analytics
+description: ''
+use_admin_theme: false
+path: /analytics/visualizations
+access_logic: and
+access_conditions: {  }
+parameters: {  }

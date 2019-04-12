@@ -1,0 +1,39 @@
+uuid: 7666b907-3a5e-4760-9d3b-dbd43d460e18
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:cf8209e7-dbe5-4f66-8146-5fc52de7832d'
+  module:
+    - block_content
+    - node
+    - wxt_library
+  theme:
+    - od_bootstrap
+id: pillarssocialmedia
+theme: od_bootstrap
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:cf8209e7-dbe5-4f66-8146-5fc52de7832d'
+settings:
+  id: 'block_content:cf8209e7-dbe5-4f66-8146-5fc52de7832d'
+  label: 'Pillars - social media'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      webform: webform
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  panels_title:
+    id: panels_title
+    enabled: 0
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,13 @@
+uuid: 5452d0ee-bf67-4b3e-a5a2-16ed76bd5471
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: NzRvyqFQWioJ7VQvFccddL4axYQMQJ94m4Qv00nQSuI
+id: search_api__views_block__pd_core_travelq__block_1
+name: 'search_api:views_block__pd_core_travelq__block_1'
+filter_key: travelq
+url_processor: query_string
+breadcrumb:
+  active: false
+  group: false

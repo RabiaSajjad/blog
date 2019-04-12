@@ -1,0 +1,30 @@
+uuid: a1fc90c6-7230-41ab-80d7-3ddcfa3de96e
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - wxt_library
+  theme:
+    - od_bootstrap
+third_party_settings:
+  block_class:
+    classes: col-sm-12
+id: datemodifiedblock_2
+theme: od_bootstrap
+region: content_footer
+weight: 0
+provider: null
+plugin: date_modified_block
+settings:
+  id: date_modified_block
+  label: 'Date modified block'
+  provider: wxt_library
+  label_display: '0'
+  date_modified: tiny
+visibility:
+  panels_title:
+    id: panels_title
+    enabled: 0
+    negate: false
+    context_mapping: {  }

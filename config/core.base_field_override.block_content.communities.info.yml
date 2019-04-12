@@ -1,0 +1,18 @@
+uuid: c3f88a0a-7582-4b4a-912e-bc8f9252363e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.communities
+id: block_content.communities.info
+field_name: info
+entity_type: block_content
+bundle: communities
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

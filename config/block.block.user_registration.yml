@@ -1,0 +1,31 @@
+uuid: 384a0732-41ee-45c5-acd4-5b6f35e9e011
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:315b8b2d-923b-4889-a446-d415d1ba2112'
+  module:
+    - block_content
+    - system
+  theme:
+    - od_bootstrap
+id: user_registration
+theme: od_bootstrap
+region: header
+weight: -11
+provider: block_content
+plugin: 'block_content:315b8b2d-923b-4889-a446-d415d1ba2112'
+settings:
+  id: 'block_content:315b8b2d-923b-4889-a446-d415d1ba2112'
+  label: 'Registration Page'
+  provider: block_content
+  label_display: ''
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /user/register
+    negate: false
+    context_mapping: {  }

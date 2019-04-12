@@ -1,0 +1,25 @@
+uuid: ab44357c-00d2-40b4-8dc8-09874352bd88
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - od_bootstrap
+_core:
+  default_config_hash: YEI2bp9sbS8q3FfKeVnWro-01EbsPupzN9UuqsGqmm4
+id: od_sitebranding
+theme: od_bootstrap
+region: banner
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

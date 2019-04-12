@@ -1,0 +1,129 @@
+definitions:
+  user__page:
+    weight: -50
+    menu_name: account
+    parent: 'menu_link_content:e976f4c0-13e8-4ce1-9e37-671fe7fa051e'
+    enabled: true
+    expanded: false
+  user__logout:
+    weight: -49
+    menu_name: account
+    parent: 'menu_link_content:e976f4c0-13e8-4ce1-9e37-671fe7fa051e'
+    expanded: false
+    enabled: true
+  'views_view:views__group_add_content__page_1_view__comment__page_published':
+    menu_name: admin
+    parent: system.admin_content
+    weight: 0
+    expanded: false
+    enabled: false
+  system__admin_config_search:
+    menu_name: admin
+    parent: system.admin_config
+    weight: -5
+    expanded: false
+    enabled: true
+  system__admin_config_regional:
+    menu_name: admin
+    parent: system.admin_config
+    weight: -10
+    expanded: false
+    enabled: true
+  system__admin_config_ui:
+    menu_name: admin
+    parent: system.admin_config
+    weight: 0
+    expanded: false
+    enabled: true
+  quicktabs__admin:
+    menu_name: admin
+    parent: system.admin_structure
+    weight: 0
+    expanded: false
+    enabled: true
+  entity__facets_facet__collection:
+    menu_name: admin
+    parent: system.admin_config_search
+    weight: 0
+    expanded: false
+    enabled: true
+  entity__search_page__collection:
+    menu_name: admin
+    parent: system.admin_config_search
+    weight: 0
+    expanded: false
+    enabled: true
+  path__admin_overview:
+    menu_name: admin
+    parent: system.admin_config_search
+    weight: 0
+    expanded: false
+    enabled: true
+  system__image_toolkit_settings:
+    menu_name: admin
+    parent: system.admin_config_media
+    weight: 0
+    expanded: false
+    enabled: true
+  system__regional_settings:
+    menu_name: admin
+    parent: system.admin_config_regional
+    weight: 0
+    expanded: false
+    enabled: true
+  entity__date_format__collection:
+    menu_name: admin
+    parent: system.admin_config_regional
+    weight: 0
+    expanded: false
+    enabled: true
+  language__content_settings_page:
+    menu_name: admin
+    parent: system.admin_config_regional
+    weight: 0
+    expanded: false
+    enabled: true
+  locale__translate_page:
+    menu_name: admin
+    parent: system.admin_config_regional
+    weight: 0
+    expanded: false
+    enabled: true
+  config_translation__mapper_list:
+    menu_name: admin
+    parent: system.admin_config_regional
+    weight: 0
+    expanded: false
+    enabled: true
+  system__performance_settings:
+    menu_name: admin
+    parent: system.admin_config_development
+    weight: 0
+    expanded: false
+    enabled: true
+  system__logging_settings:
+    menu_name: admin
+    parent: system.admin_config_development
+    weight: 0
+    expanded: false
+    enabled: true
+  system__site_maintenance_mode:
+    menu_name: admin
+    parent: system.admin_config_development
+    weight: 0
+    expanded: false
+    enabled: true
+  contact__site_page:
+    weight: -50
+    menu_name: footer
+    parent: ''
+    enabled: false
+    expanded: false
+  wxt__front_page:
+    weight: -48
+    menu_name: main
+    parent: 'menu_link_content:a283cf36-1412-4a51-b8f1-52962a55d95c'
+    enabled: true
+    expanded: true
+_core:
+  default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM

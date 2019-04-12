@@ -1,0 +1,13 @@
+uuid: ae071d43-84e9-4eea-9873-af44efd2c775
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: NdbZSmvja1r94e2_EAapJ-aNmTbZCWiyZoRjh0Vuf4Q
+id: search_api__views_block__pd_core_contractsa__block_1
+name: 'search_api:views_block__pd_core_contractsa__block_1'
+filter_key: contractsa
+url_processor: query_string
+breadcrumb:
+  active: false
+  group: false

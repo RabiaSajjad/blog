@@ -1,0 +1,17 @@
+uuid: 19796268-41be-4508-9f7f-db31170f3fa2
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.department
+  enforced:
+    config:
+      - user.role.comment_moderator
+id: department-af132ccf1
+label: 'Comment Moderator'
+weight: 5
+internal: true
+audience: outsider
+group_type: department
+permissions_ui: false
+permissions: {  }

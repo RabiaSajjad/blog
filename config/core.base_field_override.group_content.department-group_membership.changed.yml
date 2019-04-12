@@ -1,0 +1,18 @@
+uuid: 4005de0b-ed2d-4a9a-9421-ca17f68ef8a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.content_type.department-group_membership
+id: group_content.department-group_membership.changed
+field_name: changed
+entity_type: group_content
+bundle: department-group_membership
+label: 'Changed on'
+description: 'The time that the group content was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

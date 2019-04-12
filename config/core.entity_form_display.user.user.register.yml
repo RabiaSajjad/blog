@@ -1,0 +1,118 @@
+uuid: 99cec34a-4128-46f4-87ac-c54492bccb2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.user.register
+    - field.field.user.user.field_address
+    - field.field.user.user.field_agree
+    - field.field.user.user.field_first_name
+    - field.field.user.user.field_last_name
+    - field.field.user.user.field_last_password_reset
+    - field.field.user.user.field_message_subscribe
+    - field.field.user.user.field_password_expiration
+    - field.field.user.user.field_subscribe_updates
+    - field.field.user.user.field_subscriptions
+    - field.field.user.user.field_user_about
+    - field.field.user.user.user_picture
+  module:
+    - address
+    - field_group
+    - path
+    - user
+third_party_settings:
+  field_group:
+    group_user_profile:
+      parent_name: ''
+      weight: 3
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        description: ''
+        id: ''
+        label: 'User Profile'
+        required_fields: false
+      children:
+        - field_subscriptions
+        - field_address
+      label: 'User Profile'
+    group_notifications:
+      parent_name: ''
+      weight: 2
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        description: ''
+        id: ''
+        label: Notifications
+        required_fields: false
+      children:
+        - field_subscribe_updates
+        - field_message_subscribe
+      label: Notifications
+id: user.user.register
+targetEntityType: user
+bundle: user
+mode: register
+content:
+  account:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_address:
+    type: address_default
+    weight: 15
+    settings:
+      default_country: CA
+    third_party_settings: {  }
+    region: content
+  field_agree:
+    type: boolean_checkbox
+    weight: 5
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_message_subscribe:
+    type: boolean_checkbox
+    weight: 6
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    region: content
+  field_subscribe_updates:
+    type: boolean_checkbox
+    weight: 5
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    region: content
+  field_subscriptions:
+    type: options_buttons
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  language:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  contact: true
+  field_first_name: true
+  field_last_name: true
+  field_last_password_reset: true
+  field_password_expiration: true
+  field_user_about: true
+  google_analytics: true
+  langcode: true
+  timezone: true
+  user_picture: true

@@ -1,0 +1,15 @@
+uuid: 2d088de4-2015-40f7-b2cd-2fc5595b04cd
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: Global
+tags:
+  canonical_url: '[current-page:url]'
+  title: '[current-page:title] | [site:name]'
+  dcterms_creator: 'Treasury Board Secretariat of Canada'
+  dcterms_language: '[node:langcode]'
+  dcterms_rights: '2'
+  dcterms_title: '[node:title]'

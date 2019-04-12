@@ -1,0 +1,37 @@
+uuid: 188a07fe-d8ce-4969-baf2-6000a3a915f0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access external comments'
+  - 'access site-wide contact form'
+  - 'access user profiles'
+  - 'access vote up/down statistics'
+  - 'clear own vote on external_entity:ckan:field_vote'
+  - 'clear own vote on external_entity:ckan_obd:field_vote'
+  - 'clear own vote on node:app:field_vote'
+  - 'edit own vote on external_entity:ckan:field_vote'
+  - 'edit own vote on external_entity:ckan_obd:field_vote'
+  - 'edit own vote on node:app:field_vote'
+  - 'post comments'
+  - 'post external comments'
+  - 'reset vote up/down votes'
+  - 'search content'
+  - 'use search'
+  - 'use vote up/down'
+  - 'view ckan external entity'
+  - 'view ckan_obd external entity'
+  - 'view external entity list page'
+  - 'view media'
+  - 'view solr_inventory external entity'
+  - 'vote on external_entity:ckan:field_vote'
+  - 'vote on external_entity:ckan_obd:field_vote'
+  - 'vote on node:app:field_vote'

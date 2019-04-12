@@ -1,0 +1,9 @@
+uuid: 963a8438-f07e-44a8-b5d5-277269b3a5cb
+langcode: en
+status: true
+dependencies: {  }
+name: 'Blog Author'
+vid: blog_author
+description: 'List of original blog authors'
+hierarchy: 0
+weight: 0

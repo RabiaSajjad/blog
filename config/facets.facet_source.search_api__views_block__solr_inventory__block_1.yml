@@ -1,0 +1,9 @@
+uuid: 616db8e8-c806-4ae3-9b03-1014166f03d8
+langcode: en
+status: true
+dependencies: {  }
+id: search_api__views_block__solr_inventory__block_1
+name: 'search_api:views_block__solr_inventory__block_1'
+filter_key: null
+url_processor: query_string
+breadcrumb: {  }

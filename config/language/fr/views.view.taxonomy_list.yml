@@ -1,0 +1,15 @@
+display:
+  categories:
+    display_title: 'Catégories de blogue'
+    display_options:
+      block_description: 'Catégories de blogue'
+  default:
+    display_options:
+      title: 'Catégories de blogue'
+  popular_authors:
+    display_title: 'Lire les blogues de'
+    display_options:
+      title: 'Lire les blogues de'
+      footer:
+        area_text_custom:
+          content: '<a href="[site:url]/auteurs">Voir tous les auteurs de blogue</a>'

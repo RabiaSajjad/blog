@@ -1,0 +1,20 @@
+uuid: bfe576c7-f8c9-432c-88a3-5d73ce97bf64
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.department
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: SF84g6ool0AG7652rU5HMUscEKTjXo0iiHckr464jwo
+id: group.department
+target_entity_type_id: group
+target_bundle: department
+default_langcode: site_default
+language_alterable: false

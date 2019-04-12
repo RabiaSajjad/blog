@@ -1,0 +1,24 @@
+uuid: cba70035-f6df-4bcc-b244-9db954784133
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_agree
+  module:
+    - user
+id: user.user.field_agree
+field_name: field_agree
+entity_type: user
+bundle: user
+label: 'By selecting, you indicate that you accept these rules of engagement. '
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

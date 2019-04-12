@@ -1,0 +1,26 @@
+uuid: 17867cf8-ca75-4567-b782-34e02362b2da
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - od_bootstrap
+_core:
+  default_config_hash: S06JmwOx342anZmSUT9RBz8vdndjNTF3sk4hl5i3UnY
+id: od_bootstrap_account_menu
+theme: od_bootstrap
+region: navigation_collapsible
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility: {  }

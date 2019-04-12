@@ -1,0 +1,10 @@
+uuid: ddd1a151-9a62-483b-bbb0-2591938fecf1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ovieuN2NVYKnGkElOAwS-4zyiMPG2dvK8xZ7yoABL3Y
+id: communities
+label: Communities
+revision: 1
+description: 'A Communities block contains a title and a body. It then gets displayed on the communities taxonomy pages.'

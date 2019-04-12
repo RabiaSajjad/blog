@@ -1,0 +1,13 @@
+uuid: edcf4978-3165-44b0-9330-ea05033b6bc0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: DFbvak7V6NyrSzA5IpCrQTbEXsIGP_co8lvXbSEyXj8
+id: search_api__views_block__pd_core_inventory__block_1
+name: 'search_api:views_block__pd_core_inventory__block_1'
+filter_key: inventory
+url_processor: query_string
+breadcrumb:
+  active: false
+  group: false

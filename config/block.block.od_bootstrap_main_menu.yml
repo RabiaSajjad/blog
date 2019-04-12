@@ -1,0 +1,34 @@
+uuid: 7a139a4b-c7c4-4ef8-a12e-ca0f0c823a95
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - language
+    - system
+  theme:
+    - od_bootstrap
+_core:
+  default_config_hash: qh5we5VP-zB_ESyD0DGFoivyRMiUtUyCZMBpxILbdcQ
+id: od_bootstrap_main_menu
+theme: od_bootstrap
+region: navigation
+weight: -8
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility:
+  language:
+    id: language
+    langcodes:
+      en: en
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'

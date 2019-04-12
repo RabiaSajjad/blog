@@ -1,0 +1,18 @@
+uuid: fa8f5550-1bbd-4fa5-8949-a14a06e08427
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.content_type.department-group_node-blog_post
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: group_content.department-group_node-blog_post
+target_entity_type_id: group_content
+target_bundle: department-group_node-blog_post
+default_langcode: site_default
+language_alterable: false

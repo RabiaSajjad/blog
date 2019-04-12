@@ -1,0 +1,18 @@
+uuid: 081c6cca-b02d-4aa8-a851-617723fe5c45
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.taxonomy_comment
+id: comment.taxonomy_comment.hostname
+field_name: hostname
+entity_type: comment
+bundle: taxonomy_comment
+label: Hostname
+description: 'The comment author''s hostname.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

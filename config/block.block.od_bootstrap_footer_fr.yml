@@ -1,0 +1,38 @@
+uuid: 7b44b437-e5a4-417d-b411-d6c405ef1f56
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-fr
+  module:
+    - language
+    - system
+    - wxt_library
+  theme:
+    - od_bootstrap
+id: od_bootstrap_footer_fr
+theme: od_bootstrap
+region: footer
+weight: -12
+provider: null
+plugin: 'system_menu_block:footer-fr'
+settings:
+  id: 'system_menu_block:footer-fr'
+  label: 'Pied de page'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  language:
+    id: language
+    langcodes:
+      fr: fr
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
+  panels_title:
+    id: panels_title
+    enabled: 0
+    negate: false
+    context_mapping: {  }

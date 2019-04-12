@@ -1,0 +1,4 @@
+label: Webform
+relationships:
+  'node:langcode:language':
+    label: Langue

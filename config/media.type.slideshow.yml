@@ -1,0 +1,21 @@
+uuid: ee0843aa-2de6-4957-bab9-f471e15d59f4
+langcode: en
+status: true
+dependencies:
+  module:
+    - crop
+    - media_entity_slideshow
+third_party_settings:
+  crop:
+    image_field: null
+_core:
+  default_config_hash: eItgwpcxZTJzUpyJJbUVZHlCEOXUwKdzSR4xzuk5Ri0
+id: slideshow
+label: Slideshow
+description: 'Slideshows of media items.'
+source: slideshow
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: slideshow_items
+field_map: {  }

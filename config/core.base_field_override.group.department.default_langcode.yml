@@ -1,0 +1,22 @@
+uuid: 84065f7a-aa7d-4635-a4e3-65af44cc6786
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.department
+id: group.department.default_langcode
+field_name: default_langcode
+entity_type: group
+bundle: department
+label: 'Default translation'
+description: 'A flag indicating whether this is the default translation.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

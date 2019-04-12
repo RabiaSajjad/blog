@@ -1,0 +1,13 @@
+uuid: b72ccf88-2946-43a0-a006-ac0f036b232b
+langcode: en
+status: true
+dependencies:
+  module:
+    - flag
+id: flag_action.action_required.unflag
+label: '✖ Action Required'
+type: comment
+plugin: 'flag_action:action_required.unflag'
+configuration:
+  flag_id: action_required
+  flag_action: unflag

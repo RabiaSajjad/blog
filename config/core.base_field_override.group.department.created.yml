@@ -1,0 +1,18 @@
+uuid: 3bfda02d-7df2-4347-91a4-060e0b11c1e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.department
+id: group.department.created
+field_name: created
+entity_type: group
+bundle: department
+label: 'Created on'
+description: 'The time that the group was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

@@ -1,0 +1,20 @@
+uuid: e964038e-1187-41da-af83-54fc0eb37c01
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.webform
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '1'
+_core:
+  default_config_hash: O4PTnqTyD0rksB5Jqsm0aUj7sE2yaWWHRacKtAOt9vI
+id: node.webform
+target_entity_type_id: node
+target_bundle: webform
+default_langcode: site_default
+language_alterable: false

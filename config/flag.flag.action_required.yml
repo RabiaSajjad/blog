@@ -1,0 +1,32 @@
+uuid: 607f6cae-9a3d-48f5-9ab1-0b6237656395
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+id: action_required
+label: 'Action Required'
+bundles:
+  - comment
+  - taxonomy_comment
+entity_type: comment
+global: true
+weight: 0
+flag_short: '✔  OK'
+flag_long: ''
+flag_message: ''
+unflag_short: '✖ Action Required'
+unflag_long: ''
+unflag_message: ''
+unflag_denied_text: ''
+flag_type: 'entity:comment'
+link_type: ajax_link
+flagTypeConfig:
+  show_in_links: {  }
+  show_as_field: false
+  show_on_form: false
+  show_contextual_link: false
+  extra_permissions:
+    owner: '0'
+    parent_owner: '0'
+linkTypeConfig: {  }

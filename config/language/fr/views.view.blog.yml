@@ -1,0 +1,63 @@
+label: Blogue
+display:
+  default:
+    display_title: Maître
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Rechercher
+          reset_button_label: Réinitialiser
+          exposed_sorts_label: 'Trier par'
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Éléments par page'
+            items_per_page_options_all_label: '- Tout -'
+            offset_label: Décalage
+      title: 'Featured blogs - FR'
+      empty:
+        area_text_custom:
+          content: 'No featured blog found - FR.'
+  block_all:
+    display_title: 'Articles récents'
+    display_options:
+      title: 'Articles récents'
+      fields:
+        nothing:
+          alter:
+            text: "<div class=\"row\">\r\n  <div class=\"col-md-3 col-sm-3\">\r\n    {{ view_node }}\r\n  </div>\r\n  <div class=\"col-md-9 col-sm-9\">\r\n    <h3 class=\"h4\">{{ title }}</h3>\r\n    {% if comment_count > 0 %}\r\n      <span class=\"pull-right brdr-lft\"><span class=\"glyphicon glyphicon-comment mrgn-lft-md mrgn-rght-md\"></span>Commenter ({{ comment_count }})</span>\r\n    {% endif %}\r\n    <p>par <strong>{{ field_blog_author }}</strong> dans la catégorie <strong>{{ field_blog_category }}</strong></p>\r\n    <p>{{ created }}</p>\r\n    <p>{{ body }}</p>\r\n    <p>Continuer la lecture \"{{ title }}\"</p>\r\n  </div>\r\n</div>"
+      empty:
+        area_text_custom:
+          content: "<div class=\"alert alert-warning\">\r\n   <h3>Aucun blogue trouvé.</h3>\r\n</div>"
+      filters:
+        keys:
+          expose:
+            label: Rechercher
+        field_blog_author_target_id:
+          expose:
+            label: Auteur
+        field_blog_category_target_id:
+          expose:
+            label: Catégorie
+      pager:
+        options:
+          tags:
+            previous: '‹ Précédent'
+            next: 'Suivant ›'
+            first: '« Premier'
+            last: 'Dernier »'
+  block_featured:
+    display_title: 'Featured Blogs - FR'
+    display_options:
+      title: 'Featured blogs - FR'
+  blog_block:
+    display_title: 'Articles récents'
+    display_options:
+      title: 'Articles récents'
+  blog_user_all:
+    display_options:
+      arguments:
+        uid:
+          exception:
+            title: Tout
+          title: '{{ arguments.uid }}''s blogue'

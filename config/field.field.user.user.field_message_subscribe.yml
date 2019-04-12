@@ -1,0 +1,26 @@
+uuid: 26ef176b-2456-469e-a182-2be66fe9bf84
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_message_subscribe
+  module:
+    - user
+_core:
+  default_config_hash: 963NAOrFBOLfqMecAZfQCR1rEq6TFg0ceTDeiviBAas
+id: user.user.field_message_subscribe
+field_name: field_message_subscribe
+entity_type: user
+bundle: user
+label: 'Daily Digest'
+description: 'You will receive a daily digest of your <a href="[current-user:url:unaliased]/notifications">notifications</a> related to the various pages you are subscribed to @ <a href="[current-user:mail]">[current-user:mail]</a>. You can change your email address and subscription settings on your <a href="[current-user:edit-url]">user account page</a>.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Email
+  off_label: 'Don''t email'
+field_type: boolean

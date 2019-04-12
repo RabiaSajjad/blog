@@ -1,0 +1,28 @@
+uuid: 53634699-33d1-4918-aecf-5e27e1e582ce
+langcode: en
+status: true
+dependencies:
+  module:
+    - lightning_core
+third_party_settings:
+  lightning_core:
+    description: 'Moderate all comments on the site'
+_core:
+  default_config_hash: 1LHpso4Sc3dq1H2AiYWTNfRypQrdggMqjHXbBBPwgho
+id: comment_moderator
+label: 'Comment Moderator'
+weight: 5
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access comments'
+  - 'access content'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'administer comments'
+  - 'administer external comments'
+  - 'create content translations'
+  - 'edit own comments'
+  - 'post comments'
+  - 'skip comment approval'
+  - 'update content translations'

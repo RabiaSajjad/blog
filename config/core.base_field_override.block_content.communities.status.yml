@@ -1,0 +1,22 @@
+uuid: a62563f7-51de-46ee-93d6-167b7f39fcf0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.communities
+id: block_content.communities.status
+field_name: status
+entity_type: block_content
+bundle: communities
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

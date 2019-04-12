@@ -1,0 +1,18 @@
+uuid: b7213b28-9cff-48aa-aa17-07d372429a0f
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.department
+id: group.department.langcode
+field_name: langcode
+entity_type: group
+bundle: department
+label: Language
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: language

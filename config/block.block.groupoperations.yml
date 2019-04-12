@@ -1,0 +1,32 @@
+uuid: b26fd6f8-bc8d-4051-b7ed-8d331f946097
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - group
+  theme:
+    - od_bootstrap
+_core:
+  default_config_hash: Wxcyn0LP4ZVfk5vL_SJIX2cNJziW44JQg31QbSGON2E
+id: groupoperations
+theme: od_bootstrap
+region: sidebar_first
+weight: -10
+provider: null
+plugin: group_operations
+settings:
+  id: group_operations
+  label: 'Group operations'
+  provider: group
+  label_display: visible
+  context_mapping:
+    group: '@group.group_route_context:group'
+visibility:
+  'entity_bundle:group':
+    id: 'entity_bundle:group'
+    bundles:
+      department: department
+    negate: false
+    context_mapping:
+      group: '@group.group_route_context:group'

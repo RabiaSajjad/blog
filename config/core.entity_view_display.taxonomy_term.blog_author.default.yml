@@ -1,0 +1,50 @@
+uuid: 489de4c1-485e-4b53-9121-53290b8ff977
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.blog_author.field_author_bio
+    - field.field.taxonomy_term.blog_author.field_blog_author_image
+    - field.field.taxonomy_term.blog_author.field_position_title
+    - taxonomy.vocabulary.blog_author
+  module:
+    - image
+    - panelizer
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: taxonomy_term.blog_author.default
+targetEntityType: taxonomy_term
+bundle: blog_author
+mode: default
+content:
+  field_author_bio:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_blog_author_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  field_position_title:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  description: true
+  langcode: true

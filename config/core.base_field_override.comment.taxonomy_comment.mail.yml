@@ -1,0 +1,18 @@
+uuid: 9a477087-09d7-456c-8b45-0a053a6eb26f
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.taxonomy_comment
+id: comment.taxonomy_comment.mail
+field_name: mail
+entity_type: comment
+bundle: taxonomy_comment
+label: Email
+description: 'The comment author''s email address.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

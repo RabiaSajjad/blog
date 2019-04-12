@@ -1,0 +1,13 @@
+uuid: 0cb6f4c5-afb6-4912-9ae2-7c1ef22a91d3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: tFysTqTWE3xscyW-LXKORrxkvH2crmELIrTusmx5Kz8
+id: search_api__views_block__pd_core_contracts__block_1
+name: 'search_api:views_block__pd_core_contracts__block_1'
+filter_key: contracts
+url_processor: query_string
+breadcrumb:
+  active: false
+  group: false

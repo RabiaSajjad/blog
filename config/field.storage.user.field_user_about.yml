@@ -1,0 +1,21 @@
+uuid: a6ab6b19-675b-488a-9a9e-f254999706d2
+langcode: en
+status: true
+dependencies:
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: yhfM-CqA-SudfkmwS2Fe6pvqFNLBAEthHi7-hWzlcHU
+id: user.field_user_about
+field_name: field_user_about
+entity_type: user
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

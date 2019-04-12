@@ -1,0 +1,28 @@
+uuid: 3f5929af-06b3-4c6b-b85c-5efd1788dd51
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_queue
+    - node.type.landing_page
+_core:
+  default_config_hash: shsUc-SgsJ2Oj7e4riIgtqtZHCQ2ADFqt3Y0c6_XPiY
+id: node.landing_page.field_queue
+field_name: field_queue
+entity_type: node
+bundle: landing_page
+label: Queue
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:entity_subqueue'
+  handler_settings:
+    target_bundles: {  }
+    sort:
+      field: _none
+    auto_create: null
+    auto_create_bundle: null
+field_type: entity_reference

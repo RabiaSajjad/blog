@@ -1,0 +1,4 @@
+label: 'Digest quotidien'
+description: 'Vous recevrez un « sommaire quotidien » des <a href="[current-user:url:unaliased]/notifications">avis</a> liés aux diverses pages auxquelles vous êtes inscrit(e), à <a href="[current-user:mail]">[current-user:mail]</a>. Vous pouvez modifier votre adresse courriel et vos préférences d’inscription à partir de la page de votre <a href="[current-user:edit-url]">compte d’utilisateur</a>.'
+settings:
+  on_label: Courriel

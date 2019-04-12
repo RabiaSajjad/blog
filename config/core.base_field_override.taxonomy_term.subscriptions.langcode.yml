@@ -1,0 +1,18 @@
+uuid: 4014d30d-5fb4-4c24-bc13-144edd195064
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.subscriptions
+id: taxonomy_term.subscriptions.langcode
+field_name: langcode
+entity_type: taxonomy_term
+bundle: subscriptions
+label: Language
+description: 'The term language code.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: language

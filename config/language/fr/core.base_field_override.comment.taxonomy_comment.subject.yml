@@ -1,0 +1,18 @@
+uuid: 7daafe4f-d9f5-40cf-9442-14457517ce81
+langcode: fr
+status: true
+dependencies:
+  config:
+    - comment.type.taxonomy_comment
+id: comment.taxonomy_comment.subject
+field_name: subject
+entity_type: comment
+bundle: taxonomy_comment
+label: Objet
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

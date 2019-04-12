@@ -1,0 +1,18 @@
+uuid: 5dc1a3f5-bb5f-4e9b-9e9f-0d69cefdc67a
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.content_type.department-group_node-blog_post
+id: group_content.department-group_node-blog_post.label
+field_name: label
+entity_type: group_content
+bundle: department-group_node-blog_post
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

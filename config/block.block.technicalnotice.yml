@@ -1,0 +1,31 @@
+uuid: 71719083-888e-4ef6-a1b7-fb1ea4c3c5ca
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ba7be731-2b4a-4460-96d0-c554eff3ad57'
+  module:
+    - block_content
+    - wxt_library
+  theme:
+    - od_bootstrap
+id: technicalnotice
+theme: od_bootstrap
+region: breadcrumb
+weight: -11
+provider: null
+plugin: 'block_content:ba7be731-2b4a-4460-96d0-c554eff3ad57'
+settings:
+  id: 'block_content:ba7be731-2b4a-4460-96d0-c554eff3ad57'
+  label: 'Technical notice'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  panels_title:
+    id: panels_title
+    enabled: 0
+    negate: false
+    context_mapping: {  }

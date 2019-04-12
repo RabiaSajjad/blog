@@ -1,0 +1,4 @@
+label: Abonnez-vous
+description: 'Est-ce que vous souhaitez obtenir des mises à jour occasionnelles concernant les activités sur le gouvernement ouvert du Canada?'
+settings:
+  off_label: 'Ne recevez pas de mises à jour occasionnelles'

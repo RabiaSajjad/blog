@@ -1,0 +1,13 @@
+uuid: 5a33e5af-1383-4003-ad8d-24f49035e17f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BaLopaO8rC9_r11D71-tC8S4WDlFKA1721PPqGsGfDw
+id: search_api__views_block__solr_search_content__solr_consultation
+name: 'search_api:views_block__solr_search_content__solr_consultation'
+filter_key: consultation
+url_processor: query_string
+breadcrumb:
+  active: false
+  group: false

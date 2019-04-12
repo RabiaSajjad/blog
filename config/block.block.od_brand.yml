@@ -1,0 +1,40 @@
+uuid: ad56bc82-9139-4f3c-bef6-6e79356643bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.brand
+  module:
+    - language
+    - system
+    - wxt_library
+  theme:
+    - od_bootstrap
+_core:
+  default_config_hash: 5f7N-lZ2ON9Fl7jJbs7d4N_GKct37aj1KuxIl2zUH7Y
+id: od_brand
+theme: od_bootstrap
+region: branding
+weight: 0
+provider: null
+plugin: 'system_menu_block:brand'
+settings:
+  id: 'system_menu_block:brand'
+  label: Brand
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  language:
+    id: language
+    langcodes:
+      en: en
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
+  panels_title:
+    id: panels_title
+    enabled: 0
+    negate: false
+    context_mapping: {  }

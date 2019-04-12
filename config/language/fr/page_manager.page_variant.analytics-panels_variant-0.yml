@@ -1,0 +1,14 @@
+label: Analytique
+variant_settings:
+  blocks:
+    1fc5de6f-7eef-43ad-8cd1-4b904fe5186a:
+      label: Onglets
+    bd12193c-f449-4dc9-a982-49eea4b61283:
+      label: 'Pourcentages des visites du site par province et territoire'
+    8298318f-0cbd-42fa-9092-fc4ca0bc6c49:
+      label: 'Pourcentages des visites du site de provenance étrangère'
+    0877f413-8a4b-4046-a458-fbb50b77f4cd:
+      label: 'Pourcentages des visites du site par pays'
+    57dad460-6109-4110-b36d-97c17cd80747:
+      label: 'Nombre de visites'
+  page_title: Analytique

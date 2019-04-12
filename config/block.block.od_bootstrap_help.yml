@@ -1,0 +1,22 @@
+uuid: 926765be-2140-4e57-a9ed-0c38adea7707
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - od_bootstrap
+_core:
+  default_config_hash: BHuzsCa6D_A1MJhkrZdWp5NHOR14MJskTHhweVBJ0SE
+id: od_bootstrap_help
+theme: od_bootstrap
+region: help
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

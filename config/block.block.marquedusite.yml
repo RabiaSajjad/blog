@@ -1,0 +1,42 @@
+uuid: 22c9f54c-8fb5-48ae-8d64-dfa692611b5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.brand-fr
+  module:
+    - block_class
+    - language
+    - system
+    - wxt_library
+  theme:
+    - od_bootstrap
+third_party_settings:
+  block_class:
+    classes: od_brand_fr
+id: marquedusite
+theme: od_bootstrap
+region: branding
+weight: 0
+provider: null
+plugin: 'system_menu_block:brand-fr'
+settings:
+  id: 'system_menu_block:brand-fr'
+  label: 'Marque du site'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  language:
+    id: language
+    langcodes:
+      fr: fr
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
+  panels_title:
+    id: panels_title
+    enabled: 0
+    negate: false
+    context_mapping: {  }

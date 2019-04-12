@@ -1,0 +1,13 @@
+uuid: 3ba68ca4-8bfb-42da-8acf-26b7e3ac4a84
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: v_pUBYaa5UW5xuZfAzfDH-Pi8F743teAHziu278oIf4
+id: search_api__views_block__pd_core_reclassification__block_1
+name: 'search_api:views_block__pd_core_reclassification__block_1'
+filter_key: reclassification
+url_processor: query_string
+breadcrumb:
+  active: false
+  group: false

@@ -1,0 +1,11 @@
+uuid: 0e80f0ec-416a-45e9-8e2c-25f2e9615dc7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1Mn9FrIhh98gC4RzFYmmUrsoZ2fAYbg0JZB9KU8HNPA
+name: Subscriptions
+vid: subscriptions
+description: 'Subscriptions for Open Government.'
+hierarchy: 0
+weight: 0

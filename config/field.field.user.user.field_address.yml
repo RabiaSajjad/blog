@@ -1,0 +1,43 @@
+uuid: 6886987c-092a-4f18-bcc4-660e00857a06
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_address
+  module:
+    - address
+    - user
+_core:
+  default_config_hash: D32S0DFlyWNNpWjUag59m0Mbs51DYE7EU1HJkcI-x7o
+id: user.user.field_address
+field_name: field_address
+entity_type: user
+bundle: user
+label: 'User Details'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  available_countries: {  }
+  langcode_override: en
+  field_overrides:
+    organization:
+      override: optional
+    addressLine1:
+      override: optional
+    addressLine2:
+      override: optional
+    postalCode:
+      override: optional
+    sortingCode:
+      override: optional
+    dependentLocality:
+      override: optional
+    locality:
+      override: optional
+    administrativeArea:
+      override: optional
+  fields: {  }
+field_type: address

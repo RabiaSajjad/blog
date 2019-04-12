@@ -1,0 +1,18 @@
+uuid: c9d35238-cefe-4d52-a2c2-91f6d5321104
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.slideshow
+id: media.slideshow.created
+field_name: created
+entity_type: media
+bundle: slideshow
+label: 'Authored on'
+description: 'The time the media item was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getRequestTime'
+settings: {  }
+field_type: created
